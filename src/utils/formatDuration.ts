@@ -13,5 +13,6 @@ const LEADING_ZERO_FORMATTER = new Intl.NumberFormat(undefined, {
       )}:${LEADING_ZERO_FORMATTER.format(seconds)}`
     }
   
+    
     return `${minutes}:${LEADING_ZERO_FORMATTER.format(seconds)}`
   }
